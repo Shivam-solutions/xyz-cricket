@@ -3,8 +3,8 @@ var crsr = document.querySelector("#cursor img");
 
 
 document.addEventListener("mousemove", function (dets) {
-  crsr.style.left = dets.x-15 + "px";
-  crsr.style.top = dets.y-15 + "px";
+  crsr.style.left = dets.x + "px";
+  crsr.style.top = dets.y+10 + "px";
   
 });
 document.getElementById("player-login-btn").addEventListener("click", function() {
@@ -109,4 +109,4 @@ gsap.from("#colon2", {
 
 
 
-// Thanks itna aage tak aane ke liye lekin pura code utha ke copy paste karne ki jagah khud ek baar banane ka try karna, kuch naya seekhne ko milega!
+
